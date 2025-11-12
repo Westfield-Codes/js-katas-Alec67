@@ -44,37 +44,41 @@ animalType = "amputee";
 // Display an Alert Box with the message: "An [animalType] SOMETIMES has [legs] legs"
 alert("A " + animalType + " SOMETIMES has " + legs + " legs.");
 // Assign the string "dog" to animalType
-
+animalType = "dog";
 // Display an Alert Box with the message: "for example, an [animalType]".
-
+alert("for example, an " + animalType);
 /* Fun with expressions
 * Understanding the pecularities of the JavaScript Alert Box
 */
 
 // Declare a variable and name it first
-
+var first;
 // Assign a value to first using a prompt: "Enter first number"
-
+first = prompt("Enter first number");
+if (first = "2") first = 2
 // Declare a variable and name it second
-
+var second;
 // Assign a value to second using a prompt: "Enter second number"
-
+second = prompt("Enter second number");
+if (second = "3") second = 3
 // Declare a variable and name it bragging
-
+var bragging;
 // Assign exactly this expression to bragging: "I can add " + first + " + " + second"
-
+bragging = ("I can add " + first + "+" + second);
 // Display an Alert Box with bragging inside it.
-
+alert(bragging);
 // Assign exactly this expression to bragging: first + " + " + second + " = " + first + second
-
+var answer;
+answer = (first + second);
+bragging = (first + " + " + second + " = " + answer);
 // DO NOT Display an Alert Box with bragging inside it YET.
-
+alert(bragging);
 // Declare a variable and name it prediction
-
+var prediction;
 // Assign your prediction about what will be displayed when we display bragging
-
+prediction = ("2+3=5");
 // Display an Alert Box with prediction inside it.
-
+alert(prediction);
 // Call Mr. M. over to see it. Do not do anythign else!
 
 // Await further instructions.
